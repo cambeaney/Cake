@@ -1,8 +1,7 @@
 package net.whatever.minecraft.stuff.morestuff.dontlookhere.seriouslydont.plsgo.Cake
 
-public class Cake implements ICake
+public interface ICake {
 
-	public boolean isFrosted() {
-		return true;
-	}
+	public boolean isFrosted();
+	
 }
